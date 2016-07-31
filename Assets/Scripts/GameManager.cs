@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 	public static GameManager instance = null;
 	public GameObject winText;
 	public GameObject loseText;
-	public Text hitBricksCountText;
+	public TextMesh hitBricksCountText;
 	public int numBricksInGame;
 
 	private int totalBricks = 0;
